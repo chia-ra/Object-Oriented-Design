@@ -1,0 +1,66 @@
+Exercise 2:
+
+The main differences between int and Integer:
+- int stores integer values into memory, Integer converts an int to object (and vice versa)
+- int is less flexible than Integer:
+	Integer provides functionalities which can be used on an int value, such as:
+	-toString() and variants of, valueOf,  rotateLeft() or rotateRight(),  etc.
+	-additionally, Integer allows to convert to other value types (ex. byte, short, int)
+	-Integer also allows strings to be assigned or converted to int values using parsing 
+	 or constructors, whereas int primitive type does not, even with casting.
+	-Wih Integer class, you can use it in collections with Object reference or Generics.
+- however, int data type takes 4 times fewer bits than Integer class to store an int. (32 vs. 128 bits)
+- specific functionalities you can use with int only are operators like +, -, /, *, ++, --, ==. !=, etc.
+  this is because Integer objects made with the Integer class are immutable and cannot be changed once created.
+- specific functionalities of Integer only are all the methods in its API:
+bitCount​(int i)
+byteValue()
+compare​(int x, int y)
+compareTo​(Integer anotherInteger)
+compareUnsigned​(int x, int y)
+decode​(String nm)
+describeConstable()
+divideUnsigned​(int dividend, int divisor)
+doubleValue()
+equals​(Object obj)
+floatValue()
+getInteger​(String nm)
+getInteger​(String nm, int val)
+getInteger​(String nm, Integer val)
+hashCode()
+hashCode​(int value)
+highestOneBit​(int i)
+intValue()
+longValue()
+lowestOneBit​(int i)
+max​(int a, int b)
+min​(int a, int b)
+numberOfLeadingZeros​(int i)
+numberOfTrailingZeros​(int i)
+parseInt​(CharSequence s, int beginIndex, int endIndex, int radix)
+parseInt​(String s)
+parseInt​(String s, int radix)
+parseUnsignedInt​(CharSequence s, int beginIndex, int endIndex, int radix)
+parseUnsignedInt​(String s)
+parseUnsignedInt​(String s, int radix)
+remainderUnsigned​(int dividend, int divisor)
+resolveConstantDesc​(MethodHandles.Lookup lookup)
+reverse​(int i)
+reverseBytes​(int i)
+rotateLeft​(int i, int distance)
+rotateRight​(int i, int distance)
+shortValue()
+signum​(int i)
+sum​(int a, int b)
+toBinaryString​(int i)
+toHexString​(int i)
+toOctalString​(int i)
+toString()
+toString​(int i)
+toString​(int i, int radix)
+toUnsignedLong​(int x)
+toUnsignedString​(int i)
+toUnsignedString​(int i, int radix)
+valueOf​(int i)
+valueOf​(String s, int radix)
+valueOf​(String s)
